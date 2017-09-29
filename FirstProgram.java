@@ -32,3 +32,12 @@ public class FirstProgram{
 }       
 
 /* Here System, PrintStream class Is pre-defined class */
+
+
+
+/*
+OutPut:-
+
+MY FIRST PROGRAM
+
+*/
