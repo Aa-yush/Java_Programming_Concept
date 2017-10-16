@@ -1,0 +1,19 @@
+C:\Users\ayush>cd desktop
+
+C:\Users\ayush\Desktop>cd "New folder"
+
+/*We have the source files in this location "C:\Users\ayush\Desktop\New folder" */
+
+C:\Users\ayush\Desktop\New folder>javac -d "D:Ayush's Folder" Student.java   
+
+/*Set directory on this location "D:Ayush's Folder" to make package */
+
+C:\Users\ayush\Desktop\New folder>javac -cp "D:Ayush's Folder" Main.java
+
+/*Set classpath of this location "D:Ayush's Folder" to compile Main class with import Student class */
+
+C:\Users\ayush\Desktop\New folder>java -cp .;"D:Ayush's Folder" Main
+Roll Number: 101
+Name is: Ayush Gupta
+
+/*Now , Now we have to include current directorty as well as base directory to get Run Main class  */
