@@ -14,7 +14,7 @@
 import java.io.*;
 import java.util.*;
 public class WriteInFile{
-	public static void main(String []args) throws IOException{
+	public static void main(String []args) throws Exception{
 		Scanner sc = new Scanner(System.in);
 		FileOutputStream fout = new FileOutputStream("C:\\Users\\ayush\\Desktop\\New folder\\abc.txt");
 		System.out.println("Enter String to write in File: ");
