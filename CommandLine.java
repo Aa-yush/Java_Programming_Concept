@@ -1,38 +1,20 @@
-/*  Program  To Take input From Command Line and than Print Its Value  
-*
-*
-*
-*
-*
-*
-*   Author- Ayush Gupta
-*   Contact No- 8745056594
-*
-*/
-
-public class CommandLine {
+public class CommandLine{
+	public void function(int ... var3){
+		int size = var3.length;
+		System.out.println("Size of array : "+size);
+	}
 	
-// An array is passing in main function which is String type
- 
-	public static void main ( String[] args ){
-
-// Loop: include all String !! Lenght is the property by which we get to know how much elements in array exist!! 
-
-    for ( int i=0; i<args.length ;i++ )
-		
-// command line argument receives string during run time
- 
-         System.out.println ( args[i] );   
+	public static void main(String ... args){  
+/*		int flag=1;
+		int ... var = new int[5];	//compilation error
+		int ... var2 = {12,32,44,65,76}; //compilation error 
+		for(int i=0;i<var.length;i++){
+			var[i]=flag++;
+		}
+		for(int i=0;i<var.length;i++){
+			System.out.println(var2[i]);
+		}									*/
+		CommandLine cl=new CommandLine();
+		cl.function(2,3,4,5,6,7,8);
 	}
 }
-/* OutPut:-
-               
-D:\Ayush's Folder\JAVA\JAVA Program>javac CommandLine.java
-
-D:\Ayush's Folder\JAVA\JAVA Program>java CommandLine Ayush_Gupta Semma_Chauhan Anita_Kumari
-Ayush_Gupta
-Semma_Chauhan
-Anita_Kumari
-
-*/
-	
